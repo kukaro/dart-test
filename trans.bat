@@ -1,1 +1,1 @@
-dart2js -O2 -o test.js 61p.dart
+dart2js -O2 -o test.js test.dart
