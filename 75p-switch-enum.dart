@@ -17,4 +17,10 @@ void main() {
     default:
       print('초기화됨');
   }
+
+  //for test
+  var items = ['짜장', '라면', '볶음밥'];
+  for (var item in items) {
+    print(item);
+  }
 }
