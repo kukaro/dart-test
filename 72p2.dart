@@ -7,9 +7,10 @@ class MyClass {
 class Person {
   String name;
   int age;
-  String name2;
+  String? name2;
 
-  Person(this.name, {this.age});
+  Person(this.name, {required this.age});
+
   /*
    * 위같은 형태는 약어 형태가 되며 이 경우 생성자의 파라메터이름과 프로퍼티 이름과 일치하는 녀석이 매칭된다.
    * 그리고 named parameter는 {}안에 넣어야하며 예외가 안된다.

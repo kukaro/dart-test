@@ -2,10 +2,7 @@ class Person {
   String name;
   int _age;
 
-  Person(String name, int age) {
-    this.name = name;
-    this._age = age;
-  }
+  Person(this.name, this._age);
 
   @override
   String toString() {
